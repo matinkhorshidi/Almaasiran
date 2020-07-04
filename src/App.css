@@ -1,26 +1,122 @@
 .App {
   text-align: center;
+  background-image: url(./pic.jpg);
+  /* Full height */
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: center;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+.Almaas-logo {
+  flex-grow: 1;
+  margin-top: 5vmin;
+  /* background-color: #61dafb; */
+  justify-content: center;
+  align-items: center;
+}
+.Almaas-logo img {
+  height: 30vmin;
+}
+.Body-style {
+  margin-top: -6vmin;
+  justify-content: start;
+  align-items: flex-start;
+  flex-grow: 7;
+  /* background-color: violet; */
+}
+/* ! .Footer-style {
+  flex-grow: 1;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  flex-direction: row;
+  align-self: flex-start;
+  flex-direction: column;
+  background-color: black;
+}
+.Footer-style img {
+  height: 8vmin;
+  margin-left: 5vmin;
+  background-color: blue;
+}
+.Footer-style a {
+ 
+} */
 
+.Footer-style {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-self: flex-start;
+  /* background-color: DodgerBlue; */
+  margin-left: 5vmin;
+  margin-bottom: 5vmin;
+  text-decoration: none;
+
+}
+.Footer-logo{
+  margin-top: 0.8vmin;
+  height: 2.2vw;
+}
+/* .flex-container div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+} */
+.Instagram-link {
+  /* background-color: blue; */
+  margin-left: 1vmin;
+  color: white;
+  display: inline-block;
+  /* margin-bottom: 5vmin; */
+  text-decoration: none;
+  font-size: 2vw;
+
+}
 .App-logo {
-  height: 40vmin;
+  height: 9vmin;
   pointer-events: none;
+}
+.App-logo2 {
+  height: 9vmin;
+  pointer-events: none;
+  /* margin-bottom: -45px;
+  margin-left: -18px; */
+  margin-bottom: -5vmin;
+  margin-left: -2vmin;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 7s linear;
+    color: white;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo2 {
+    animation: App-logo2-spin infinite 7s linear;
+    color: white;
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  flex: 1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(30px + 1vmin);
   color: white;
 }
 
@@ -34,5 +130,13 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@keyframes App-logo2-spin {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
   }
 }
