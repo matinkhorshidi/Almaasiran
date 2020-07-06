@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.52e809dc.chunk.css",
+    "main.js": "/static/js/main.f565bab6.chunk.js",
+    "main.js.map": "/static/js/main.f565bab6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ef567449.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ef567449.js.map",
+    "static/js/2.0271e7b0.chunk.js": "/static/js/2.0271e7b0.chunk.js",
+    "static/js/2.0271e7b0.chunk.js.map": "/static/js/2.0271e7b0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.eaee55b68bce6df0a535b85ced2bf181.js": "/precache-manifest.eaee55b68bce6df0a535b85ced2bf181.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.52e809dc.chunk.css.map": "/static/css/main.52e809dc.chunk.css.map",
+    "static/js/2.0271e7b0.chunk.js.LICENSE.txt": "/static/js/2.0271e7b0.chunk.js.LICENSE.txt",
+    "static/media/almas.png": "/static/media/almas.45900fba.png",
+    "static/media/instagram-sketched.svg": "/static/media/instagram-sketched.bdc5043e.svg",
+    "static/media/phone.svg": "/static/media/phone.240456b7.svg",
+    "static/media/App.css": "/static/media/pic.a16c7a65.jpg",
+    "static/media/pin.svg": "/static/media/pin.adc5c2ac.svg",
+    "static/media/settingsicon.svg": "/static/media/settingsicon.64f34638.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef567449.js",
+    "static/js/2.0271e7b0.chunk.js",
+    "static/css/main.52e809dc.chunk.css",
+    "static/js/main.f565bab6.chunk.js"
+  ]
+}
