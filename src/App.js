@@ -4,15 +4,13 @@ import instagram from './icon/instagram-sketched.svg';
 import almaas from './icon/almas.png';
 import pin from './icon/pin.svg';
 import phone from './icon/phone.svg';
-import { Progress } from 'semantic-ui-react';
-import ProgressCmp from './Component/ProgressCmp';
+
 import './App.css';
 
 function App() {
   return (
     <div >
-            <Progress value='4' total='5' progress='percent' />
-{/* 
+   
       <body className="App-header">
         <div className="Almaas-logo">
           <img src={almaas} alt="logo" />
@@ -58,7 +56,7 @@ function App() {
         </div>
 
       </body>
- */}
+
 
 
     </div>
