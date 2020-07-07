@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background-image: url(./pic.jpg);
+  overflow: hidden;
   /* Full height */
   height: 100%;
   display: flex;
@@ -59,7 +60,7 @@
   margin-left: 5vmin;
   margin-bottom: 5vmin;
   text-decoration: none;
-
+  overflow: hidden;
 }
 .Footer-logo{
   margin-top: 0.8vmin;
@@ -80,7 +81,7 @@
   display: inline-block;
   /* margin-bottom: 5vmin; */
   text-decoration: none;
-  font-size: 2vw;
+  font-size: 1.9vw;
 
 }
 .App-logo {

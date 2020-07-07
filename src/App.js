@@ -42,15 +42,15 @@ function App() {
           >almaas_iran</a>
 
           <a
-            href="https://www.instagram.com/almaas_iran"
-            style={{ marginLeft: '22vw', marginTop: '8.5vmin' }}
+            href=""
+            style={{ marginLeft: '26vw', marginTop: '8.5vmin' }}
             className="Instagram-link"
           >بابلسر نرسیده به دریاکنار</a>
           <img src={pin} alt="logo" style={{ marginLeft: '0.2vw', marginTop: '9vmin', height: ' 2.2vw' }} />
 
           <a
-           href="https://www.instagram.com/almaas_iran"
-            style={{ marginTop: '8.5vmin', marginLeft: '22vw' }}
+           href=""
+            style={{ marginTop: '8.5vmin', marginLeft: '24vw' }}
             className="Instagram-link"
           >09017711751</a>
           <img src={phone} alt="logo" style={{ marginTop: '9vmin', height: ' 2.2vw' }} />
