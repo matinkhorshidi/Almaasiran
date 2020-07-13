@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9846323a3982b1d0a47343d34f135b00",
+    "revision": "541a2dafed14c0382ebacaa7e007fb0d",
     "url": "/index.html"
   },
   {
-    "revision": "e2b69450f55d7138ec71",
-    "url": "/static/css/main.5befb690.chunk.css"
+    "revision": "d32afbd1a754eac42433",
+    "url": "/static/css/main.6f7aaf31.chunk.css"
   },
   {
     "revision": "02006c99af3b1849efbf",
@@ -16,12 +16,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.0271e7b0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e2b69450f55d7138ec71",
-    "url": "/static/js/main.8a1f02ec.chunk.js"
+    "revision": "d32afbd1a754eac42433",
+    "url": "/static/js/main.49b31f55.chunk.js"
   },
   {
     "revision": "71684afbeb30a1ea1b7e",
     "url": "/static/js/runtime-main.ef567449.js"
+  },
+  {
+    "revision": "7c9217f496d9a41150cdd26cc35b4d5a",
+    "url": "/static/media/FilsonSoft-Medium.7c9217f4.otf"
+  },
+  {
+    "revision": "97b4acac12b7e325c650aa1fd14e92a2",
+    "url": "/static/media/IRANSans.97b4acac.ttf"
   },
   {
     "revision": "45900fbaf914e966fa5c5f0f162dbb76",
@@ -44,7 +52,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/pin.adc5c2ac.svg"
   },
   {
-    "revision": "64f34638dc9da757feeec5bedb3151a2",
-    "url": "/static/media/settingsicon.64f34638.svg"
+    "revision": "7ba0494bfa8d4172ae97312dbbac8d99",
+    "url": "/static/media/settingsicon.7ba0494b.svg"
   }
 ]);
