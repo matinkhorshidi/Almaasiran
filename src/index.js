@@ -1,5 +1,8 @@
+
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './fonts/IRANSans.ttf'
+import './fonts/FilsonSoft-Medium.otf'
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';

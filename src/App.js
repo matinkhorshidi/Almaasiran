@@ -32,7 +32,7 @@ function App() {
           </div>
         </div>
         <div className="Footer-style">
-          <img src={instagram} className="Footer-logo" alt="logo" style={{ marginTop: '9.5vmin' }} />
+          <img src={instagram} className='Footer-logo'  alt="logo" style={{ marginLeft: '5vw', marginTop: '9vmin'}} />
           <a
             style={{ marginTop: '8.5vmin' }}
             className="Instagram-link"
@@ -43,17 +43,17 @@ function App() {
 
           <a
             href=""
-            style={{ marginLeft: '26vw', marginTop: '8.5vmin' }}
+            style={{ marginLeft: '20vw', marginTop: '8.5vmin' }}
             className="Instagram-link"
           >بابلسر نرسیده به دریاکنار</a>
-          <img src={pin} alt="logo" style={{ marginLeft: '0.2vw', marginTop: '9vmin', height: ' 2.2vw' }} />
+          <img src={pin} alt="logo" className='Footer-logo' style={{ marginLeft: '0.2vw', marginTop: '9vmin' }} />
 
           <a
            href=""
-            style={{ marginTop: '8.5vmin', marginLeft: '24vw' }}
+            style={{ marginTop: '8.5vmin' , marginLeft: '17vw' }}
             className="Instagram-link"
-          >09017711751</a>
-          <img src={phone} alt="logo" style={{ marginTop: '9vmin', height: ' 2.2vw' }} />
+          >09113133013</a>
+          <img src={phone} alt="logo" className='Footer-logo' style={{ marginTop: '9vmin' }} />
 
         </div>
 

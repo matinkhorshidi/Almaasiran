@@ -2,8 +2,8 @@ body , html {
   height: 100%;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',FilsonSoft-Medium,
+    sans-serif ,IRANSans;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -12,4 +12,13 @@ code {
   height: 100%;
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: 'IRANSans';
+  src: local('IRANSans'), url(./fonts/IRANSans.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'FilsonSoft-Medium';
+  src: local('FilsonSoft-Medium'), url(./fonts/FilsonSoft-Medium.otf) format('otf');
 }

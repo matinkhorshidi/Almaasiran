@@ -1,4 +1,4 @@
-.App {
+  .App {
   text-align: center;
   background-image: url(./pic.jpg);
   overflow: hidden;
@@ -24,6 +24,7 @@
   height: 30vmin;
 }
 .Body-style {
+  font-family: IRANSans;
   margin-top: -6vmin;
   justify-content: start;
   align-items: flex-start;
@@ -63,8 +64,8 @@
   overflow: hidden;
 }
 .Footer-logo{
-  margin-top: 0.8vmin;
-  height: 2.2vw;
+  /* margin-top: 0.8vmin; */
+   height: calc(10px + 1.4vw)
 }
 /* .flex-container div {
   background-color: #f1f1f1;
@@ -81,7 +82,8 @@
   display: inline-block;
   /* margin-bottom: 5vmin; */
   text-decoration: none;
-  font-size: 1.9vw;
+  font-size: calc(12px + 1vw) ;
+  font-family: IRANSans;
 
 }
 .App-logo {
